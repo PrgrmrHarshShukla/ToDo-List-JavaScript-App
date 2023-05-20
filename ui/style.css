@@ -1,0 +1,46 @@
+
+body {
+   background-color: black;
+   color: rgb(2, 192, 2);
+}
+
+#dc1 {
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;   
+   gap: 2vh;
+   flex-wrap: wrap;
+}
+
+#input {
+   height: 4vh;
+   width: 50%;
+   font-size: 3vh;
+   padding: 3px;
+   border-radius: 5px;
+   background-color: rgb(156, 215, 195);
+}
+
+.btn {
+   height: 4vh;
+   font-weight: 600;
+   border: none;
+   border-radius: 100px;
+   padding: 3px;
+   padding-left: 30px;
+   padding-right: 30px;
+}
+
+#bt2 {
+   background-color: red;
+}
+
+#dc2 {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   font-size: 3vh;
+   width: 90vw;
+}
